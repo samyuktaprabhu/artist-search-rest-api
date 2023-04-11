@@ -17,6 +17,9 @@ const formattedResults = (results) =>
       mbid !== '' ? '"' + mbid + '"' : DATA_UNAVAILABLE_MESSAGE,
       url !== '' ? '"' + url + '"' : DATA_UNAVAILABLE_MESSAGE,
       image.find((img) => img.size === IMAGE_SIZE_SMALL)['#text'] !== ''
+        ? true
+        : false,
+      image.find((img) => img.size === IMAGE_SIZE_SMALL)['#text'] !== ''
         ? image.find((img) => img.size === IMAGE_SIZE_SMALL)['#text']
         : DATA_UNAVAILABLE_MESSAGE,
     ])

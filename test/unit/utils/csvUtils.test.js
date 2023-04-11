@@ -16,12 +16,14 @@ describe('testing writeArtistsToCSVFile function', function () {
         name: 'Artist 1',
         mbid: '1234',
         url: 'http://artist1.com',
+        image_small_exists: true,
         image: [{ size: 'small', '#text': 'http://image1.com' }],
       },
       {
         name: 'Artist 2',
         mbid: '',
         url: '',
+        image_small_exists: false,
         image: [{ size: 'small', '#text': '' }],
       },
     ]
@@ -32,7 +34,7 @@ describe('testing writeArtistsToCSVFile function', function () {
     sinon.assert.calledWith(
       writeFileSyncStub,
       `${DEFAULT_FILE_SAVE_PATH}/testFileName.csv`,
-      'Name,MBID,URL,Image (Small)\n"Artist 1","1234","http://artist1.com",http://image1.com\n"Artist 2",Data unavailable,Data unavailable,Data unavailable',
+      'Name,MBID,URL,Image (Small),Image\n"Artist 1","1234","http://artist1.com",true,http://image1.com\n"Artist 2",Data unavailable,Data unavailable,false,Data unavailable',
       UTF8_ENCODING,
     )
 
