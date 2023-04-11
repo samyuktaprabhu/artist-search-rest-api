@@ -21,6 +21,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#pointers-taken-into-consideration-while-designing-the-api">Pointers taken into consideration while designing the API</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -97,7 +98,7 @@ npm test
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Pointers taken into consideration while desiging the API
+### Pointers taken into consideration while designing the API
 
 * For this API, a JSON dictionary source file has been generated to handle cases where no results are returned from the artist search endpoint.
 * The API primarily utilizes the JSON format to process and transmit data.
