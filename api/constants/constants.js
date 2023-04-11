@@ -1,5 +1,4 @@
-const DEFAULT_FILE_SAVE_PATH =
-  '/Users/samyukthaprabhu/Desktop/full time/incedo/Challenge/ArtistSearch/output'
+const DEFAULT_FILE_SAVE_PATH = 'output'
 const JSON_CONTENT_TYPE = 'json'
 const XML_CONTENT_TYPE = 'xml'
 const UTF8_ENCODING = 'utf8'
