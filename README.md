@@ -113,7 +113,7 @@ NodeJS has been used to write this API.
 
 Following languages, frameworks and libraries have been used in the script.
 
-_For information on 'JavaScript', please refer to the [Documentation]([https://nodejs.org/en/docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript))_
+_For information on 'JavaScript', please refer to the [Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_
 
 _For information on 'NodeJS', please refer to the [Documentation](https://nodejs.org/en/docs)_
 
